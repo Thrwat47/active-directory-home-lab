@@ -1,6 +1,7 @@
 # Active Directory Home Lab (VMware)
 
 **Built:** October 2025
+**Link to updated repo:** > 🔄 **Updated version available:** [NEW-REPO-NAME](https://github.com/Thrwat47/NEW-REPO-NAME)
 
 ## Overview
 A home lab built on VMware Workstation to practice Windows Server administration and Active Directory. It includes a forest with a root domain and child domains, a second forest connected by a forest trust, multiple domain controllers in two AD sites, an OU structure, DHCP failover, Group Policy tested on a domain-joined Windows 11 client, and a Rocky Linux machine joined to the domain.
