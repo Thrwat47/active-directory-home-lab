@@ -1,5 +1,11 @@
 # tacademy.local: Segmented Active Directory Lab with Splunk SIEM
 
+
+
+
+> 📌 **Earlier version:** [active-directory-home-lab](https://github.com/Thrwat47/active-directory-home-lab)
+
+
 A home lab on VMware Workstation that simulates a small enterprise network: an Active Directory domain, five isolated network segments (one per OU), DHCP and DNS served by the domain controller, Group Policy, and a Splunk SIEM on Rocky Linux collecting the domain controller's Windows event logs.
 
 The main focus is **network segmentation and least-privilege isolation** of a restricted "Guest" segment: what I built, how I tested it, the mistakes I found along the way, and how I diagnosed them (see [Troubleshooting log](#troubleshooting-log)).
